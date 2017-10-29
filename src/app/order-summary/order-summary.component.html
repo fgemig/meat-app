@@ -8,12 +8,12 @@
     <p>
       <b>Avalie</b> sua experiência:</p>
     <p>
-      <i class="fa fa-star"></i>
-      <i class="fa fa-star"></i>
-      <i class="fa fa-star"></i>
-      <i class="fa fa-star"></i>
-      <i class="fa fa-star"></i>
+      <mt-rating (rated)="rate()"></mt-rating>
     </p>
+    <p *ngIf="rated">
+      Obrigado pela sua avaliação!
+    </p>
+
   </div>
 
 </section>
