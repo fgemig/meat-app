@@ -6,7 +6,6 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 import { Restaurant } from './restaurant.model';
-import { ErrorHandler } from './../../app.error-handler';
 import { MenuItem } from './../../restaurant-detail/menu-item/menu-item.model';
 
 @Injectable()
